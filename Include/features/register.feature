@@ -24,7 +24,6 @@ Feature: Register
 
     Examples: 
       | fullname | email                  | password |
-      | zack     | zackmobileee@gmail.com | zack123  |
       | zack     | zackmobileee@gmail.com |          |
       | zack     |                        | zack123  |
       |          | zackmobileee@gmail.com | zack123  |
