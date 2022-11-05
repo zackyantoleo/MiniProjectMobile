@@ -1,0 +1,479 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Register new account",
+        "description": "",
+        "id": "register;register-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58466103100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2883772200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1176568100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8637819100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input zack , zackmobilegz1@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobilegz1@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 46
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3729891600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User success register new account",
+            "match": {
+              "location": "registersteps.Usersuccessregisternewaccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29551623700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1905630300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5759424500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9307414800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input zack , zackmobileee@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 45
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 899031000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40636707300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1873052900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18885173700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8896972900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input zack , zackmobileee@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "",
+                  "offset": 45
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 784076000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38838197600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1871741200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11801191900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9193633500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input zack ,  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 23
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1224917000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to start app with application ID: \u0027com.example.frontend_mobile\u0027 (Root cause: java.io.IOException: GetExitCodeProcess error\u003d6, The handle is invalid\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:412)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:478)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)\r\n\tat loginsteps.Usernavigatetohomepage(loginsteps.groovy:47)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Feature Test.run(Feature Test:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1667627710262.run(TempTestSuite1667627710262.groovy:36)\r\n)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)\r\n\tat loginsteps.Usernavigatetohomepage(loginsteps.groovy:47)\r\n\tat ✽.User navigate to homepage(C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature:19)\r\nCaused by: java.io.IOException: GetExitCodeProcess error\u003d6, The handle is invalid\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.isAppiumServerStarted(AppiumDriverManager.java:194)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:258)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.startAppiumServerJS(AppiumDriverManager.java:412)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:244)\r\n\tat com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:478)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:417)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory$startMobileDriver.call(Unknown Source)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword$_startApplication_closure1.doCall(StartExistingApplicationKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.startApplication(StartExistingApplicationKeyword.groovy:43)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartExistingApplicationKeyword.execute(StartExistingApplicationKeyword.groovy:34)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startExistingApplication(MobileBuiltInKeywords.groovy:113)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startExistingApplication.call(Unknown Source)\r\n\tat loginsteps.Usernavigatetohomepage(loginsteps.groovy:47)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:68)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Feature Test.run(Feature Test:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1667627710262.run(TempTestSuite1667627710262.groovy:36)\r\n",
+              "duration": 89481400,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User input  , zackmobileee@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 14
+                },
+                {
+                  "val": "zack123",
+                  "offset": 41
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  As a user i want to register new account",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

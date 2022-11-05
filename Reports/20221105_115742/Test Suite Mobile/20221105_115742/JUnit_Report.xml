@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Mobile" time="759.57" tests="1" failures="1" errors="0">
+   <testsuite name="Test Suite Mobile" tests="1" failures="1" errors="0" time="759.57" skipped="0" timestamp="2022-11-05 11:57:51" hostname="Athif - DESKTOP-HMC26PQ" id="Test Suites/Test Suite Mobile">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Athif\\git\\MiniProjectMobile\\Reports\\20221105_115742\\Test Suite Mobile\\20221105_115742"/>
+         <property name="logFiles" value="C:\\Users\\Athif\\git\\MiniProjectMobile\\Reports\\20221105_115742\\Test Suite Mobile\\20221105_115742\\appium.log, C:\\Users\\Athif\\git\\MiniProjectMobile\\Reports\\20221105_115742\\Test Suite Mobile\\20221105_115742\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Athif - DESKTOP-HMC26PQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="M2101K7BNY"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="FI99J76LSKHQEIWS"/>
+         <property name="deviceName" value="Xiaomi M2101K7BNY (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Feature Test" time="759.049" classname="Test Cases/Feature Test" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Feature Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1667620101734.run(Script1667620101734.groovy:22)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 20 more
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	... 31 more
+"/>
+         <system-out><![CDATA[2022-11-05 11:57:51 - [TEST_CASE][FAILED] - Test Cases/Feature Test: Test Cases/Feature Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1667620101734.run(Script1667620101734.groovy:22)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 20 more
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	... 31 more
+
+
+2022-11-05 11:57:52 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/register.feature"): Feature file: 'Include/features/register.feature' was passed
+
+2022-11-05 11:57:52 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/register.feature' and extract report to folder: 'C:\Users\Athif\git\MiniProjectMobile\Reports\20221105_115742\Test Suite Mobile\20221105_115742/cucumber_report/1667624272895'...
+
+2022-11-05 11:57:54 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register new account: SCENARIO Register new account
+
+2022-11-05 11:57:54 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 11:57:55 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 11:57:58 - [MESSAGE][INFO] - Appium server started on port 61,615
+
+2022-11-05 11:58:27 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 11:58:27 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 11:58:27 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 11:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 11:58:29 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 11:58:29 - [TEST_STEP][PASSED] - User tap on register link: User tap on register link
+
+2022-11-05 11:58:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (4)'
+
+2022-11-05 11:58:31 - [MESSAGE][PASSED] - User tap on register link
+
+2022-11-05 11:58:31 - [TEST_STEP][PASSED] - User input zack , zackmobile9@gmail.com and zack123: User input zack , zackmobile9@gmail.com and zack123
+
+2022-11-05 11:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (2)'
+
+2022-11-05 11:58:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:33 - [MESSAGE][PASSED] - Text 'zack' has been set to element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (3)'
+
+2022-11-05 11:58:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (2)'
+
+2022-11-05 11:58:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:36 - [MESSAGE][PASSED] - Text 'zackmobile9@gmail.com' has been set to element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (3)'
+
+2022-11-05 11:58:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - 123123123, Password (2)'
+
+2022-11-05 11:58:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:38 - [MESSAGE][PASSED] - Text 'zack123' has been set to element 'Object Repository/Register/android.widget.EditText - 123123123, Password (3)'
+
+2022-11-05 11:58:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (5)'
+
+2022-11-05 11:58:39 - [MESSAGE][PASSED] - User input zack , zackmobile9@gmail.com and zack123
+
+2022-11-05 11:58:39 - [TEST_STEP][PASSED] - User success register new account: User success register new account
+
+2022-11-05 11:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:58:41 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' is visible
+
+2022-11-05 11:58:41 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 11:58:41 - [MESSAGE][PASSED] - User success register new account
+
+2022-11-05 11:58:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register new account with empty data: SCENARIO Register new account with empty data
+
+2022-11-05 11:58:41 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 11:58:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 11:58:44 - [MESSAGE][INFO] - Appium server started on port 61,764
+
+2022-11-05 11:59:10 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 11:59:10 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 11:59:10 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 11:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 11:59:12 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 11:59:12 - [TEST_STEP][PASSED] - User tap on register link: User tap on register link
+
+2022-11-05 11:59:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (4)'
+
+2022-11-05 11:59:13 - [MESSAGE][PASSED] - User tap on register link
+
+2022-11-05 11:59:13 - [TEST_STEP][PASSED] - User input zack , zackmobileee@gmail.com and zack123: User input zack , zackmobileee@gmail.com and zack123
+
+2022-11-05 11:59:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (2)'
+
+2022-11-05 11:59:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:16 - [MESSAGE][PASSED] - Text 'zack' has been set to element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (3)'
+
+2022-11-05 11:59:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (2)'
+
+2022-11-05 11:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:18 - [MESSAGE][PASSED] - Text 'zackmobileee@gmail.com' has been set to element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (3)'
+
+2022-11-05 11:59:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - 123123123, Password (2)'
+
+2022-11-05 11:59:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:21 - [MESSAGE][PASSED] - Text 'zack123' has been set to element 'Object Repository/Register/android.widget.EditText - 123123123, Password (3)'
+
+2022-11-05 11:59:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (5)'
+
+2022-11-05 11:59:22 - [MESSAGE][PASSED] - User input zack , zackmobileee@gmail.com and zack123
+
+2022-11-05 11:59:22 - [TEST_STEP][PASSED] - User failed register new account: User failed register new account
+
+2022-11-05 11:59:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 11:59:53 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 11:59:53 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 11:59:53 - [MESSAGE][PASSED] - User failed register new account
+
+2022-11-05 11:59:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register new account with empty data: SCENARIO Register new account with empty data
+
+2022-11-05 11:59:53 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 11:59:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 11:59:56 - [MESSAGE][INFO] - Appium server started on port 61,918
+
+2022-11-05 12:00:32 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:00:32 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:00:32 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:00:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:00:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:00:34 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:00:34 - [TEST_STEP][PASSED] - User tap on register link: User tap on register link
+
+2022-11-05 12:00:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (4)'
+
+2022-11-05 12:01:06 - [MESSAGE][PASSED] - User tap on register link
+
+2022-11-05 12:01:06 - [TEST_STEP][PASSED] - User input zack , zackmobileee@gmail.com and : User input zack , zackmobileee@gmail.com and 
+
+2022-11-05 12:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (2)'
+
+2022-11-05 12:01:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:08 - [MESSAGE][PASSED] - Text 'zack' has been set to element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (3)'
+
+2022-11-05 12:01:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (2)'
+
+2022-11-05 12:01:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:11 - [MESSAGE][PASSED] - Text 'zackmobileee@gmail.com' has been set to element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (3)'
+
+2022-11-05 12:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - 123123123, Password (2)'
+
+2022-11-05 12:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:14 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Register/android.widget.EditText - 123123123, Password (3)'
+
+2022-11-05 12:01:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (5)'
+
+2022-11-05 12:01:15 - [MESSAGE][PASSED] - User input zack , zackmobileee@gmail.com and 
+
+2022-11-05 12:01:15 - [TEST_STEP][PASSED] - User failed register new account: User failed register new account
+
+2022-11-05 12:01:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:01:45 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 12:01:46 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:01:46 - [MESSAGE][PASSED] - User failed register new account
+
+2022-11-05 12:01:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register new account with empty data: SCENARIO Register new account with empty data
+
+2022-11-05 12:01:46 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 12:01:46 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 12:01:48 - [MESSAGE][INFO] - Appium server started on port 62,098
+
+2022-11-05 12:02:25 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:02:25 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:02:25 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:02:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:02:26 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:02:26 - [TEST_STEP][PASSED] - User tap on register link: User tap on register link
+
+2022-11-05 12:02:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (4)'
+
+2022-11-05 12:02:39 - [MESSAGE][PASSED] - User tap on register link
+
+2022-11-05 12:02:39 - [TEST_STEP][PASSED] - User input zack ,  and zack123: User input zack ,  and zack123
+
+2022-11-05 12:02:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (2)'
+
+2022-11-05 12:02:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:41 - [MESSAGE][PASSED] - Text 'zack' has been set to element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (3)'
+
+2022-11-05 12:02:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (2)'
+
+2022-11-05 12:02:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:44 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (3)'
+
+2022-11-05 12:02:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - 123123123, Password (2)'
+
+2022-11-05 12:02:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:46 - [MESSAGE][PASSED] - Text 'zack123' has been set to element 'Object Repository/Register/android.widget.EditText - 123123123, Password (3)'
+
+2022-11-05 12:02:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:02:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (5)'
+
+2022-11-05 12:02:48 - [MESSAGE][PASSED] - User input zack ,  and zack123
+
+2022-11-05 12:02:48 - [TEST_STEP][PASSED] - User failed register new account: User failed register new account
+
+2022-11-05 12:02:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:03:18 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 12:03:18 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:03:18 - [MESSAGE][PASSED] - User failed register new account
+
+2022-11-05 12:03:18 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register new account with empty data: SCENARIO Register new account with empty data
+
+2022-11-05 12:03:18 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 12:03:19 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 12:03:21 - [MESSAGE][INFO] - Appium server started on port 62,272
+
+2022-11-05 12:03:47 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:03:47 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:03:47 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:03:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:03:49 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:03:49 - [TEST_STEP][PASSED] - User tap on register link: User tap on register link
+
+2022-11-05 12:03:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:03:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (4)'
+
+2022-11-05 12:03:56 - [MESSAGE][PASSED] - User tap on register link
+
+2022-11-05 12:03:56 - [TEST_STEP][PASSED] - User input  , zackmobileee@gmail.com and zack123: User input  , zackmobileee@gmail.com and zack123
+
+2022-11-05 12:03:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:03:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (2)'
+
+2022-11-05 12:03:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:03:58 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Register/android.widget.EditText - Alex Under, Fullname (3)'
+
+2022-11-05 12:03:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:03:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (2)'
+
+2022-11-05 12:03:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:04:01 - [MESSAGE][PASSED] - Text 'zackmobileee@gmail.com' has been set to element 'Object Repository/Register/android.widget.EditText - alexemail.com, Email (3)'
+
+2022-11-05 12:04:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:04:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.EditText - 123123123, Password (2)'
+
+2022-11-05 12:04:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:04:03 - [MESSAGE][PASSED] - Text 'zack123' has been set to element 'Object Repository/Register/android.widget.EditText - 123123123, Password (3)'
+
+2022-11-05 12:04:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:04:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (5)'
+
+2022-11-05 12:04:04 - [MESSAGE][PASSED] - User input  , zackmobileee@gmail.com and zack123
+
+2022-11-05 12:04:04 - [TEST_STEP][PASSED] - User failed register new account: User failed register new account
+
+2022-11-05 12:04:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:04:34 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 12:04:35 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:04:35 - [MESSAGE][PASSED] - User failed register new account
+
+2022-11-05 12:04:35 - [MESSAGE][PASSED] - Feature file: 'Include/features/register.feature' was passed
+
+2022-11-05 12:04:35 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/login.feature"): Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1667620101734.run(Script1667620101734.groovy:22)
+	... 13 more
+)
+
+2022-11-05 12:04:35 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/login.feature' and extract report to folder: 'C:\Users\Athif\git\MiniProjectMobile\Reports\20221105_115742\Test Suite Mobile\20221105_115742/cucumber_report/1667624675611'...
+
+2022-11-05 12:04:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with valid account: SCENARIO Login with valid account
+
+2022-11-05 12:04:36 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 12:04:36 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 12:04:38 - [MESSAGE][INFO] - Appium server started on port 62,426
+
+2022-11-05 12:05:14 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:05:14 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:05:14 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:05:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:05:16 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:05:16 - [TEST_STEP][PASSED] - Input zackmobile@gmail.com and zack123: Input zackmobile@gmail.com and zack123
+
+2022-11-05 12:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Email'
+
+2022-11-05 12:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:25 - [MESSAGE][PASSED] - Text 'zackmobile@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email (1)'
+
+2022-11-05 12:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-11-05 12:05:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:26 - [MESSAGE][PASSED] - Text 'zack123' has been set to element 'Object Repository/Login/android.widget.EditText - Password (1)'
+
+2022-11-05 12:05:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button (1)'
+
+2022-11-05 12:05:28 - [MESSAGE][PASSED] - Input zackmobile@gmail.com and zack123
+
+2022-11-05 12:05:28 - [TEST_STEP][PASSED] - User success login and navigate to homepage: User success login and navigate to homepage
+
+2022-11-05 12:05:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:29 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' is visible
+
+2022-11-05 12:05:30 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:05:30 - [MESSAGE][PASSED] - User success login and navigate to homepage
+
+2022-11-05 12:05:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with false data: SCENARIO Login with false data
+
+2022-11-05 12:05:30 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 12:05:30 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 12:05:32 - [MESSAGE][INFO] - Appium server started on port 62,579
+
+2022-11-05 12:05:58 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:05:58 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:05:58 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:05:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:05:59 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:05:59 - [TEST_STEP][PASSED] - Input aaaaaaa and zack123: Input aaaaaaa and zack123
+
+2022-11-05 12:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:06:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Email'
+
+2022-11-05 12:06:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:06:07 - [MESSAGE][PASSED] - Text 'aaaaaaa' has been set to element 'Object Repository/Login/android.widget.EditText - Email (1)'
+
+2022-11-05 12:06:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:06:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-11-05 12:06:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:06:09 - [MESSAGE][PASSED] - Text 'zack123' has been set to element 'Object Repository/Login/android.widget.EditText - Password (1)'
+
+2022-11-05 12:06:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:06:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button (1)'
+
+2022-11-05 12:06:10 - [MESSAGE][PASSED] - Input aaaaaaa and zack123
+
+2022-11-05 12:06:10 - [TEST_STEP][PASSED] - User failed login: User failed login
+
+2022-11-05 12:06:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:06:40 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 12:06:41 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:06:41 - [MESSAGE][PASSED] - User failed login
+
+2022-11-05 12:06:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with false data: SCENARIO Login with false data
+
+2022-11-05 12:06:41 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 12:06:41 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 12:06:43 - [MESSAGE][INFO] - Appium server started on port 62,730
+
+2022-11-05 12:07:18 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:07:18 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:07:18 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:07:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:07:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:07:19 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:07:19 - [TEST_STEP][PASSED] - Input zackmobile@gmail.com and ..x.xz: Input zackmobile@gmail.com and ..x.xz
+
+2022-11-05 12:07:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:07:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Email'
+
+2022-11-05 12:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:07:24 - [MESSAGE][PASSED] - Text 'zackmobile@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email (1)'
+
+2022-11-05 12:07:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:07:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-11-05 12:07:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:07:25 - [MESSAGE][PASSED] - Text '..x.xz' has been set to element 'Object Repository/Login/android.widget.EditText - Password (1)'
+
+2022-11-05 12:07:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:07:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button (1)'
+
+2022-11-05 12:07:27 - [MESSAGE][PASSED] - Input zackmobile@gmail.com and ..x.xz
+
+2022-11-05 12:07:27 - [TEST_STEP][PASSED] - User failed login: User failed login
+
+2022-11-05 12:07:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:07:57 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 12:07:57 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:07:57 - [MESSAGE][PASSED] - User failed login
+
+2022-11-05 12:07:57 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with empty data: SCENARIO Login with empty data
+
+2022-11-05 12:07:57 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 12:07:57 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 12:08:00 - [MESSAGE][INFO] - Appium server started on port 62,891
+
+2022-11-05 12:08:36 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:08:36 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:08:36 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:08:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:08:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:08:38 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:08:38 - [TEST_STEP][PASSED] - Input zackmobile@gmail.com and : Input zackmobile@gmail.com and 
+
+2022-11-05 12:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:08:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Email'
+
+2022-11-05 12:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:08:44 - [MESSAGE][PASSED] - Text 'zackmobile@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email (1)'
+
+2022-11-05 12:08:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:08:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-11-05 12:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:08:45 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Login/android.widget.EditText - Password (1)'
+
+2022-11-05 12:08:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:08:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button (1)'
+
+2022-11-05 12:08:46 - [MESSAGE][PASSED] - Input zackmobile@gmail.com and 
+
+2022-11-05 12:08:46 - [TEST_STEP][PASSED] - User failed login: User failed login
+
+2022-11-05 12:08:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:09:17 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 12:09:17 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:09:17 - [MESSAGE][PASSED] - User failed login
+
+2022-11-05 12:09:17 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with empty data: SCENARIO Login with empty data
+
+2022-11-05 12:09:17 - [TEST_STEP][PASSED] - User navigate to homepage: User navigate to homepage
+
+2022-11-05 12:09:17 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-05 12:09:19 - [MESSAGE][INFO] - Appium server started on port 63,058
+
+2022-11-05 12:09:51 - [MESSAGE][PASSED] - Starting app with application ID: 'com.example.frontend_mobile'
+
+2022-11-05 12:09:51 - [MESSAGE][PASSED] - User navigate to homepage
+
+2022-11-05 12:09:51 - [TEST_STEP][PASSED] - User tap on login button: User tap on login button
+
+2022-11-05 12:09:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:09:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Register/android.widget.Button (3)'
+
+2022-11-05 12:09:53 - [MESSAGE][PASSED] - User tap on login button
+
+2022-11-05 12:09:53 - [TEST_STEP][PASSED] - Input  and zack123: Input  and zack123
+
+2022-11-05 12:09:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:09:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Email'
+
+2022-11-05 12:09:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:09:57 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Login/android.widget.EditText - Email (1)'
+
+2022-11-05 12:09:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:09:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.EditText - Password'
+
+2022-11-05 12:09:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:09:59 - [MESSAGE][PASSED] - Text 'zack123' has been set to element 'Object Repository/Login/android.widget.EditText - Password (1)'
+
+2022-11-05 12:09:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:10:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button (1)'
+
+2022-11-05 12:10:00 - [MESSAGE][PASSED] - Input  and zack123
+
+2022-11-05 12:10:00 - [TEST_STEP][PASSED] - User failed login: User failed login
+
+2022-11-05 12:10:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-05 12:10:30 - [MESSAGE][PASSED] - Element 'Object Repository/Login/android.view.View' not found
+
+2022-11-05 12:10:30 - [MESSAGE][PASSED] - Close app successfully
+
+2022-11-05 12:10:30 - [MESSAGE][PASSED] - User failed login
+
+2022-11-05 12:10:31 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1667620101734.run(Script1667620101734.groovy:22)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2022-11-05 11:57:51 - [TEST_CASE][FAILED] - Test Cases/Feature Test: Test Cases/Feature Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1667620101734.run(Script1667620101734.groovy:22)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 20 more
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	... 31 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-05 11:57:51 - [TEST_SUITE][FAILED] - Test Suite Mobile: Test Cases/Feature Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1667620101734.run(Script1667620101734.groovy:22)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 20 more
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	... 31 more]]></system-out>
+      <system-err><![CDATA[2022-11-05 11:57:51 - [TEST_SUITE][FAILED] - Test Suite Mobile: Test Cases/Feature Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1667620101734.run(Script1667620101734.groovy:22)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Feature Test.run(Feature Test:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667624262387.run(TempTestSuite1667624262387.groovy:36)
+Caused by: java.lang.RuntimeException: java.io.IOException: The handle is invalid
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:24)
+	at cucumber.runtime.formatter.CucumberReporter.finishReport(CucumberReporter.java:265)
+	at cucumber.runtime.formatter.CucumberReporter.access$4(CucumberReporter.java:264)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:93)
+	at cucumber.runtime.formatter.CucumberReporter$5.receive(CucumberReporter.java:1)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 20 more
+Caused by: java.io.IOException: The handle is invalid
+	at cucumber.runtime.io.URLOutputStream.write(URLOutputStream.java:60)
+	at cucumber.api.formatter.NiceAppendable.append(NiceAppendable.java:20)
+	... 31 more]]></system-err>
+   </testsuite>
+</testsuites>

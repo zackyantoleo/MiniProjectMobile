@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="231.924339">
+<testcase classname="Login" name="Login with valid account" time="45.497778">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And Input zackmobile@gmail.com and zack123..................................passed
+Then User success login and navigate to homepage............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data" time="45.324963">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And Input aaaaaaa and zack123...............................................passed
+Then User failed login......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with false data 2" time="41.141609">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And Input zackmobile@gmail.com and ..x.xz...................................passed
+Then User failed login......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with empty data" time="50.08049">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And Input zackmobile@gmail.com and .........................................passed
+Then User failed login......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with empty data 2" time="49.879499">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And Input  and zack123......................................................passed
+Then User failed login......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,427 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "2bba2638-3601-4439-a283-5728db1bea92",
+        "line": 14,
+        "name": "Login with valid account",
+        "description": "",
+        "id": "login;login-with-valid-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38447998400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a25fce72-256e-46e4-9533-d78f8680396f"
+          },
+          {
+            "result": {
+              "duration": 1853488800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d8baafa9-332b-4458-82d7-aea4df857a9e"
+          },
+          {
+            "result": {
+              "duration": 8354716100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Input zackmobile@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackmobile@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "zack123",
+                  "offset": 31
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f7943a11-e579-4c49-83e5-edf602a3e2f5"
+          },
+          {
+            "result": {
+              "duration": 2561509100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User success login and navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usersuccessloginandnavigatetohomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "352abf63-91f2-4a7d-b28f-4a8f790243fd"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a2be3047-5f6d-4260-8e42-11c76e3c732e",
+        "line": 25,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37784459400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "5aa3e65f-ea29-43b2-a1c3-1b1a04b6c4bd"
+          },
+          {
+            "result": {
+              "duration": 2746930200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "440471bd-f39e-49ca-a5c9-6c7dffc3d65a"
+          },
+          {
+            "result": {
+              "duration": 5266804100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input aaaaaaa and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aaaaaaa",
+                  "offset": 6
+                },
+                {
+                  "val": "zack123",
+                  "offset": 18
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e7d62d1b-6126-4da7-b27a-01364f643664"
+          },
+          {
+            "result": {
+              "duration": 1030553700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "35c0ee10-51d0-4cbe-9a22-4e8a3cffb7a6"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "60671739-bed7-44e0-9d49-deb39533ed24",
+        "line": 26,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38697027100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "5da0171b-28fe-4481-b5f0-e1f96dbbf9f4"
+          },
+          {
+            "result": {
+              "duration": 2240941800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a3fa58a2-b31c-4dd2-bda1-f40776185a37"
+          },
+          {
+            "result": {
+              "duration": 14282776800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input zackmobile@gmail.com and ..x.xz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackmobile@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "..x.xz",
+                  "offset": 31
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "25c04199-3e24-4ea8-ba5d-352eeaee0e15"
+          },
+          {
+            "result": {
+              "duration": 963946400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "d3a70b2d-4ba3-4d2d-8fc3-f45ba1da2b85"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "85098948-075d-4ce8-aaa4-218b342029f5",
+        "line": 37,
+        "name": "Login with empty data",
+        "description": "",
+        "id": "login;login-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38641866400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "87b72590-f212-4546-acad-c3017c016ede"
+          },
+          {
+            "result": {
+              "duration": 2281317900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "3dc2e30d-518f-448c-b3ab-46be99137984"
+          },
+          {
+            "result": {
+              "duration": 10618085800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Input zackmobile@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackmobile@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "",
+                  "offset": 31
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "06df8865-2804-4f8f-9df7-0d9670d62186"
+          },
+          {
+            "result": {
+              "duration": 999133800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "fe2e5ef3-99d6-492b-9189-fba32aad535a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9afc0f32-c4e9-4d02-b036-49c73814f32f",
+        "line": 38,
+        "name": "Login with empty data",
+        "description": "",
+        "id": "login;login-with-empty-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40181650500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "18cbf5dc-4e85-4c34-b604-023ca6b55843"
+          },
+          {
+            "result": {
+              "duration": 2375159600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "6e16b3f2-895b-4273-87e5-b4e2090a7d34"
+          },
+          {
+            "result": {
+              "duration": 11871189900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Input  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 6
+                },
+                {
+                  "val": "zack123",
+                  "offset": 11
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "be636032-036d-4b6e-a41e-0f6bd23d6c94"
+          },
+          {
+            "result": {
+              "duration": 1018564900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "a020c6cb-8647-4751-98f4-7579d91a27e7"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user i want to login with my registered account",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniProjectMobile/Include/features/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]

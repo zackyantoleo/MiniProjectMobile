@@ -1,0 +1,512 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "56222413-084d-4df0-bfc9-b7bf5bc89cf4",
+        "line": 15,
+        "name": "Register new account",
+        "description": "",
+        "id": "register;register-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34068440600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7b0f4537-0c44-4ebf-82e5-989d77c524f9"
+          },
+          {
+            "result": {
+              "duration": 2877932900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "878f0118-6c78-4fda-b28c-ebeaaf34edac"
+          },
+          {
+            "result": {
+              "duration": 1195468500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c754b5e4-d2d3-4a72-92a7-0b7bdcbbd73f"
+          },
+          {
+            "result": {
+              "duration": 8571668700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input zack , zackmobilegz1@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobilegz1@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 46
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cd12d094-ca26-4be1-9e09-a0f342f12036"
+          },
+          {
+            "result": {
+              "duration": 915764900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User success register new account",
+            "match": {
+              "location": "registersteps.Usersuccessregisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "46ed1938-bcb6-4283-a29b-7ea3d1e93815"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a6c235e6-a081-4425-b055-c486fd2e1a98",
+        "line": 27,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36797865900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "2878e2bf-0bc6-4cab-915b-f8e38aae4531"
+          },
+          {
+            "result": {
+              "duration": 1854964700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "e4bfb050-d3d8-4100-9cb2-20ea100850a8"
+          },
+          {
+            "result": {
+              "duration": 3477285900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d146e908-2c5d-43f4-a5f7-32f8ca5529d0"
+          },
+          {
+            "result": {
+              "duration": 8889693300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input zack , zackmobileee@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 45
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e13c670c-cf92-4ebd-a12d-35f8a8bcae2e"
+          },
+          {
+            "result": {
+              "duration": 1012334800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "03cb4b00-8308-4516-b856-5a30781eed1c"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "d636f073-8129-4f9f-8cb5-c3c2d8f7089a",
+        "line": 28,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29847094100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "682676f7-5729-4214-90af-6bb485ff4e89"
+          },
+          {
+            "result": {
+              "duration": 1842029600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7ab559e4-5db0-4d37-9b78-363e75ff291f"
+          },
+          {
+            "result": {
+              "duration": 3896383000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0426cead-eba4-43f7-a019-0ba6d39784ef"
+          },
+          {
+            "result": {
+              "duration": 8743299700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input zack , zackmobileee@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "",
+                  "offset": 45
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8b2f0738-2db3-4a8a-8670-7f678c4c8332"
+          },
+          {
+            "result": {
+              "duration": 954891500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "408e9186-e0a9-43aa-a32e-2195066a5aef"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "49b0cc0a-187d-46af-a060-aeef58b95a0d",
+        "line": 29,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36992452800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "f47315d3-8c7b-45a1-a3a8-894cca9ab59a"
+          },
+          {
+            "result": {
+              "duration": 2385342100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a622c313-e6d6-40a4-a335-afa323c46952"
+          },
+          {
+            "result": {
+              "duration": 4461087500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "351974c1-bb25-4f7c-90d1-20f26b7f7a4d"
+          },
+          {
+            "result": {
+              "duration": 8415695200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input zack ,  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 23
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "16aaa029-f5ab-480a-8b1e-83d97fc0d7bb"
+          },
+          {
+            "result": {
+              "duration": 976461400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8b039b25-f347-49ec-9380-11d012522488"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2d032435-2f48-47d4-bb88-dff7c142ee3b",
+        "line": 30,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38823590400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "eba00672-94c4-4f55-b9a2-7f6220f9526a"
+          },
+          {
+            "result": {
+              "duration": 1845236700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "fe36e806-4aca-483b-9160-d48f7485d405"
+          },
+          {
+            "result": {
+              "duration": 5819084400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "05a21319-f872-40b1-aea4-cde2838baad3"
+          },
+          {
+            "result": {
+              "duration": 7737547500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input  , zackmobileee@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 14
+                },
+                {
+                  "val": "zack123",
+                  "offset": 41
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cea80dfd-fd7b-402e-a318-0e2093ca8308"
+          },
+          {
+            "result": {
+              "duration": 1068400800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1c026af6-50f7-4178-b54b-007a0ab2537c"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  As a user i want to register new account",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

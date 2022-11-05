@@ -1,0 +1,402 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login with valid account",
+        "description": "",
+        "id": "login;login-with-valid-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32441035700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1867341500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7691177900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Input zackmobile@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackmobile@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "zack123",
+                  "offset": 31
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3483749300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User success login and navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usersuccessloginandnavigatetohomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36808288700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2168210200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5301922500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input aaaaaaa and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aaaaaaa",
+                  "offset": 6
+                },
+                {
+                  "val": "zack123",
+                  "offset": 18
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1037905800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Login with false data",
+        "description": "",
+        "id": "login;login-with-false-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28418593900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1984331500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9713759200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Input zackmobile@gmail.com and ..x.xz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackmobile@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "..x.xz",
+                  "offset": 31
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1018449500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Login with empty data",
+        "description": "",
+        "id": "login;login-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39021381100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2407482900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7651174000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Input zackmobile@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zackmobile@gmail.com",
+                  "offset": 6
+                },
+                {
+                  "val": "",
+                  "offset": 31
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993094500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Login with empty data",
+        "description": "",
+        "id": "login;login-with-empty-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36315328900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1895588600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10928882300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Input  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 6
+                },
+                {
+                  "val": "zack123",
+                  "offset": 11
+                }
+              ],
+              "location": "loginsteps.Inputemailandpassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 732870000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User failed login",
+            "match": {
+              "location": "loginsteps.Userfailedloginandnavigatetohomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user i want to login with my registered account",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniProjectMobile/Include/features/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]

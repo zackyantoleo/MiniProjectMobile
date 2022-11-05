@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.172111">
+<testcase classname="Logout" name="Logout from logged in account" time="53.172111">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User already logged in with account....................................passed
+And User tap logout button on homepage......................................passed
+Then User success logout....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

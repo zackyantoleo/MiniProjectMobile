@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="127.805632">
+<testcase classname="Register" name="Register new account" time="38.762276">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And User tap on register link...............................................passed
+And User input zack , zackmobile1e@gmail.com and zack123....................passed
+Then User success register new account......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register" name="Register new account with empty data" time="21.7571">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And User tap on register link...............................................passed
+And User input zack , zackmobileee@gmail.com and zack123....................passed
+Then User success register new account......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register" name="Register new account with empty data 2" time="21.537689">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And User tap on register link...............................................passed
+And User input zack , zackmobileee@gmail.com and ...........................passed
+Then User success register new account......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register" name="Register new account with empty data 3" time="22.584766">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And User tap on register link...............................................passed
+And User input zack ,  and zack123..........................................passed
+Then User success register new account......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register" name="Register new account with empty data 4" time="23.163801">
+<system-out><![CDATA[Given User navigate to homepage.............................................passed
+When User tap on login button...............................................passed
+And User tap on register link...............................................passed
+And User input  , zackmobileee@gmail.com and zack123........................passed
+Then User success register new account......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

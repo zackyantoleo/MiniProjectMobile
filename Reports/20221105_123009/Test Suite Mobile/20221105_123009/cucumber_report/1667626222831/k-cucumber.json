@@ -1,0 +1,513 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "d3481d8b-b268-4c6b-b39c-5f4e11606f02",
+        "line": 15,
+        "name": "Register new account",
+        "description": "",
+        "id": "register;register-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35841637200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "806b47e9-45c1-4312-b5d2-e7291f6750eb"
+          },
+          {
+            "result": {
+              "duration": 1934808300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "9113f336-b7de-4ffb-9389-26cf147ba084"
+          },
+          {
+            "result": {
+              "duration": 1219646600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fc310c99-d0a6-4b9d-8dd2-93534a3c90e1"
+          },
+          {
+            "result": {
+              "duration": 9896580100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input zack , zackmobilegz1@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobilegz1@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 46
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "73385a56-fbbe-46f7-b7d7-ff1a9609d050"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: No driver found\r\n\tat com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)\r\n\tat com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)\r\n\tat com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.PressBackKeyword.pressBack(PressBackKeyword.groovy:67)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.PressBackKeyword.execute(PressBackKeyword.groovy:62)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.pressBack(MobileBuiltInKeywords.groovy:155)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$pressBack$3.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)\r\n\tat registersteps.Usersuccessregisternewaccount(registersteps.groovy:76)\r\n\tat ✽.User success register new account(C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature:11)\r\n",
+              "duration": 813764300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User success register new account",
+            "match": {
+              "location": "registersteps.Usersuccessregisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c57e24db-d842-4933-959c-0a9541eb5333"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4400fa10-9598-4eb2-b29c-d6a1a50c4d66",
+        "line": 27,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41085735100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "fca9bb85-38b8-44a0-9108-7a7525c1e0ad"
+          },
+          {
+            "result": {
+              "duration": 1800655400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "aec6b1ba-893b-4a01-abce-170a2f924ed0"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Register/android.widget.Button (4) not found\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)\r\n\tat registersteps.Usertaponregisterlink(registersteps.groovy:48)\r\n\tat ✽.User tap on register link(C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature:21)\r\n",
+              "duration": 31149559200,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a4657df1-d9f6-413d-9fb9-ed89c8120774"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User input zack , zackmobileee@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 45
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2f671dcd-53d5-4149-bdbe-ae5b734917e9"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "92c9c55d-aa42-42d3-ac40-86fb1bf70103"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4e79e821-13b8-41d4-bac9-6728ec6dabc9",
+        "line": 28,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24580849200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "873509cd-f47f-4bce-aadb-d39faed8d7d3"
+          },
+          {
+            "result": {
+              "duration": 1772262500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "4105a43b-5e2e-466c-8754-cba36477fb10"
+          },
+          {
+            "result": {
+              "duration": 1143632600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0feeb749-8bae-4f68-b25c-8bfd7f2f1b76"
+          },
+          {
+            "result": {
+              "duration": 8809221300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input zack , zackmobileee@gmail.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "",
+                  "offset": 45
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "45ce7f65-25e9-4f72-a904-3ebf9c609d09"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: No driver found\r\n\tat com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)\r\n\tat com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)\r\n\tat com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.PressBackKeyword.pressBack(PressBackKeyword.groovy:67)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.PressBackKeyword.execute(PressBackKeyword.groovy:62)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.pressBack(MobileBuiltInKeywords.groovy:155)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$pressBack$3.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)\r\n\tat registersteps.Userfailderegisternewaccount(registersteps.groovy:85)\r\n\tat ✽.User failed register new account(C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature:23)\r\n",
+              "duration": 30646562700,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "88121d95-932b-4170-9507-be187af32bf0"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "06a6f9e2-0788-464e-b1da-05c19d629761",
+        "line": 29,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31727262500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "9ff1954b-9e58-4754-a690-163f39ca35c7"
+          },
+          {
+            "result": {
+              "duration": 1789940000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "83f2b724-8018-4fdf-90a3-42c9ebba0ba4"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Register/android.widget.Button (4) not found\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)\r\n\tat registersteps.Usertaponregisterlink(registersteps.groovy:48)\r\n\tat ✽.User tap on register link(C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature:21)\r\n",
+              "duration": 30857136000,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "46d20fe2-10f9-4075-b93e-7c4366fc9d39"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User input zack ,  and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zack",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "zack123",
+                  "offset": 23
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "58c7c706-a7f4-4a77-a16c-63f2e5355496"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "caab080d-0133-4629-97f9-7d9e61a20515"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "c91f7cb9-fd12-4b71-8a67-15f61626d11e",
+        "line": 30,
+        "name": "Register new account with empty data",
+        "description": "",
+        "id": "register;register-new-account-with-empty-data;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24292310500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "04ee9bd8-2397-4787-9cda-ca378d9b9b0a"
+          },
+          {
+            "result": {
+              "duration": 1852364400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap on login button",
+            "match": {
+              "location": "loginsteps.Usertaponloginbutton()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "910819ee-b5af-489a-b25c-81a0807bb3f4"
+          },
+          {
+            "result": {
+              "duration": 1724768300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on register link",
+            "match": {
+              "location": "registersteps.Usertaponregisterlink()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4cee0aad-84ee-472b-b1fe-9f5e6809f42b"
+          },
+          {
+            "result": {
+              "duration": 8963215900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User input  , zackmobileee@gmail.com and zack123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "zackmobileee@gmail.com",
+                  "offset": 14
+                },
+                {
+                  "val": "zack123",
+                  "offset": 41
+                }
+              ],
+              "location": "registersteps.Userinputfullnameemailandpassword(String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0fdda8aa-e216-4236-aeac-689f1efd88ea"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: No driver found\r\n\tat com.kms.katalon.core.mobile.helper.MobileScreenCaptor.getAnyAppiumDriver(MobileScreenCaptor.java:82)\r\n\tat com.kms.katalon.core.mobile.helper.MobileScreenCaptor.take(MobileScreenCaptor.java:49)\r\n\tat com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.PressBackKeyword.pressBack(PressBackKeyword.groovy:67)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.PressBackKeyword.execute(PressBackKeyword.groovy:62)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.pressBack(MobileBuiltInKeywords.groovy:155)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$pressBack$3.call(Unknown Source)\r\n\tat registersteps.Userfailderegisternewaccount(registersteps.groovy:85)\r\n\tat ✽.User failed register new account(C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature:23)\r\n",
+              "duration": 30653620000,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "User failed register new account",
+            "match": {
+              "location": "registersteps.Userfailderegisternewaccount()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "24ee8c83-e0dd-4f40-a6b8-601caf2e2b47"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "  As a user i want to register new account",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniProjectMobile/Include/features/register.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

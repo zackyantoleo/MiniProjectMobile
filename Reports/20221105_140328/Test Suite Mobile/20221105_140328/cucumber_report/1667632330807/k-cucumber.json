@@ -1,0 +1,93 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "24f4ffe2-c25d-46e8-9c98-5e206168d288",
+        "line": 14,
+        "name": "Logout from logged in account",
+        "description": "",
+        "id": "logout;logout-from-logged-in-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36785572100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8ad8ec94-622d-44ff-8214-89d68550b07e"
+          },
+          {
+            "result": {
+              "duration": 13692105300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User already logged in with account",
+            "match": {
+              "location": "logoutsteps.Useralreadyloggedinwithaccount()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "aeb01858-f86a-4345-9dec-9365af78bc84"
+          },
+          {
+            "result": {
+              "duration": 2043413200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User tap logout button on homepage",
+            "match": {
+              "location": "logoutsteps.Usertaplogoutbuttononhomepage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7785185e-97a2-4363-acc4-b0c5076423c3"
+          },
+          {
+            "result": {
+              "duration": 632949000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User success logout",
+            "match": {
+              "location": "logoutsteps.Usersuccesslogout()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "cbe96721-aa29-49ac-a6e7-5ed8b191f050"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "  As a user i want to logout after login with my account",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniProjectMobile/Include/features/logout.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

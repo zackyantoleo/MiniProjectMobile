@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Mobile,,,,2022-11-05 12:55:21,2022-11-05 12:59:45,4m - 23.626s,FAILED
+,,,,,,,
+Test Cases/Feature Test,,,,2022-11-05 12:55:22,2022-11-05 12:59:45,4m - 23.094s,FAILED
+"runFeatureFile(""Include/features/register.feature"")",,,,2022-11-05 12:55:23,2022-11-05 12:59:45,4m - 22.259s,FAILED

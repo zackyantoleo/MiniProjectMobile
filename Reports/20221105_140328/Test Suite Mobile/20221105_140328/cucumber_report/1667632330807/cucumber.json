@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Logout from logged in account",
+        "description": "",
+        "id": "logout;logout-from-logged-in-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36785572100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to homepage",
+            "match": {
+              "location": "loginsteps.Usernavigatetohomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13692105300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User already logged in with account",
+            "match": {
+              "location": "logoutsteps.Useralreadyloggedinwithaccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2043413200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User tap logout button on homepage",
+            "match": {
+              "location": "logoutsteps.Usertaplogoutbuttononhomepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632949000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User success logout",
+            "match": {
+              "location": "logoutsteps.Usersuccesslogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "  As a user i want to logout after login with my account",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "C:/Users/Athif/git/MiniProjectMobile/Include/features/logout.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
